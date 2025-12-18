@@ -1,0 +1,16 @@
+{
+  "name": "llm-proxy-server",
+  "version": "1.0.0",
+  "description": "A proxy server for logging LLM requests and responses",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["llm", "proxy", "logging", "openai", "claude"],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
+
